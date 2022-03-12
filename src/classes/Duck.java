@@ -1,7 +1,8 @@
+package classes;
 import inter.FlyBehaviour;
 import inter.QuackBehaviour;
 
-public class Duck {
+public abstract class Duck {
 
 	FlyBehaviour flyBehaviour;
 	QuackBehaviour quackBehaviour;

@@ -1,3 +1,8 @@
+import classes.Character;
+import classes.Duck;
+import classes.King;
+import classes.RubberDuck;
+import impl.BowAndArrowBehaviourImpl;
 import impl.FlyToMoonImpl;
 
 public class main {
@@ -11,5 +16,10 @@ public class main {
 		rubberDuck.performFly();
 		rubberDuck.performQuack();
 		rubberDuck.performSwim();
+
+		Character chara = new King();
+		chara.fight();
+		chara.setWeapon(new BowAndArrowBehaviourImpl());
+		chara.fight();
 	}
 }

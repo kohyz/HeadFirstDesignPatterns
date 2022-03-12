@@ -1,3 +1,4 @@
+package classes;
 import impl.NoFlyingImpl;
 import impl.QuackImpl;
 
